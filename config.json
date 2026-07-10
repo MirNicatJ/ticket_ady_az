@@ -1,0 +1,22 @@
+{
+  "routes": [
+    {
+      "name": "Baku -> Tbilisi",
+      "fromId": 232,
+      "toId": 170,
+      "fromSlug": "baki-dyv",
+      "toSlug": "tbilisi-sern",
+      "from": ["baku", "baki"],
+      "to": ["tbilisi", "tblisi"]
+    },
+    {
+      "name": "Tbilisi -> Baku",
+      "fromId": 170,
+      "toId": 232,
+      "fromSlug": "tbilisi-sern",
+      "toSlug": "baki-dyv",
+      "from": ["tbilisi", "tblisi"],
+      "to": ["baku", "baki"]
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "name": "ady-telegram-ticket-bot",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "test:telegram": "node src/test-telegram.js",
+    "list:telegram-chats": "node src/list-telegram-chats.js",
+    "check": "node --check src/index.js && node --check src/ady-client.js && node --check src/state.js && node --check src/telegram.js"
+  },
+  "dependencies": {
+    "playwright": "1.56.0"
+  }
+}
